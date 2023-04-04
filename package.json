@@ -1,0 +1,27 @@
+{
+	"name": "@avannereau/eslint-config-avannereau",
+	"version": "1.0.0",
+	"description": "Strict ESLint config",
+	"main": "index.js",
+	"author": "Alan Vannereau <avannereau@pm.me>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/avannereau/eslint-config-avannereau.git"
+	},
+	"publishConfig": {
+		"@avannereau:registry": "https://npm.pkg.github.com"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "5.57.0",
+		"@typescript-eslint/parser": "5.57.0",
+		"eslint": "8.37.0",
+		"typescript": "5.0.2"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "5.57.0",
+		"@typescript-eslint/parser": "5.57.0",
+		"eslint": "8.37.0",
+		"typescript": "5.0.2"
+	}
+}
